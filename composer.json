@@ -1,0 +1,36 @@
+{
+  "name": "aixueyuan/flarum-custom-css",
+  "description": "Custom CSS overrides for Flarum.",
+  "type": "flarum-extension",
+  "keywords": [
+    "flarum",
+    "css",
+    "custom"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "aixueyuan",
+      "homepage": "https://github.com/aixueyuan"
+    }
+  ],
+  "require": {
+    "flarum/core": "^1.8"
+  },
+  "autoload": {
+    "psr-4": {
+      "Aixueyuan\\CustomCss\\": "src/"
+    }
+  },
+  "extra": {
+    "flarum-extension": {
+      "title": "Custom CSS",
+      "icon": {
+        "name": "fas fa-paint-brush",
+        "backgroundColor": "#4f46e5",
+        "color": "#ffffff"
+      }
+    }
+  },
+  "minimum-stability": "stable"
+}
